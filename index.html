@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shop</title>
+  <style>
+    body {
+      background-color: #e0f7fa; /* 淺藍色背景 */
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 3em; /* 字體 */
+      color: #ff6f20; /* 暖橘色 */
+    }
+    h2 {
+      font-size: 1.8em; /* 標題字體大小 */
+      color: #333; /* 深色標題 */
+    }
+    label {
+      font-size: 1.2em; /* 內文字體大小 */
+      color: #333; /* 黑色字體 */
+    }
+  </style>
+</head>
+<body>
+<h1>shop</h1>
+<form>
+  <h2>Select Drinks:</h2>
+  <label><input type="checkbox" name="drink" value="Black Tea"> Black Tea - $50</label><br>
+  <label><input type="checkbox" name="drink" value="Green Tea"> Green Tea - $50</label><br>
+  <label><input type="checkbox" name="drink" value="Coffee"> Coffee - $100</label><br>
+  <label><input type="checkbox" name="drink" value="Milk Tea"> Milk Tea - $70</label><br>
+  <label><input type="checkbox" name="drink" value="Water"> Water - $30</label><br>
+  <label><input type="checkbox" name="drink" value="Oolong Tea"> Oolong Tea - $60</label><br>
+  <label><input type="checkbox" name="drink" value="Juice"> Juice - $80</label><br>
+
+  <h2>Ice Options:</h2>
+  <label><input type="radio" name="ice" value="Normal" checked> Normal</label><br>
+  <label><input type="radio" name="ice" value="Less Ice"> Less Ice</label><br>
+  <label><input type="radio" name="ice" value="No Ice"> No Ice</label><br>
+  <label><input type="radio" name="ice" value="Room Temperature"> Room Temperature</label><br>
+  <label><input type="radio" name="ice" value="Hot Drink"> Hot Drink</label><br>
+
+  <h2>Sugar Level:</h2>
+  <label><input type="radio" name="sweetness" value="Normal"> Normal</label><br>
+  <label><input type="radio" name="sweetness" value="Less Sugar"> Less Sugar</label><br>
+  <label><input type="radio" name="sweetness" value="Half Sugar" checked> Half Sugar</label><br>
+  <label><input type="radio" name="sweetness" value="Light Sugar"> Light Sugar</label><br>
+  <label><input type="radio" name="sweetness" value="No Sugar"> No Sugar</label><br>
+
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
