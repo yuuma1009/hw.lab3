@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("body").css("background-color", "green");
+    $("#bt").remove();
+    $("#COF"). clone().appendTo("h2");
+    $("form").children().css("color", "white");
+    $("label:even").css("font-size", "3em");
+  });
+</script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,9 +37,9 @@
 <h1>shop</h1>
 <form>
   <h2>Select Drinks:</h2>
-  <label><input type="checkbox" name="drink" value="Black Tea"> Black Tea - $50</label><br>
-  <label><input type="checkbox" name="drink" value="Green Tea"> Green Tea - $50</label><br>
-  <label><input type="checkbox" name="drink" value="Coffee"> Coffee - $100</label><br>
+  <label><input type="checkbox" name="drink" value="Black Tea" id="bt"> Black Tea - $50</label><br>
+  <label><input type="checkbox" name="drink" value="Green Tea" id="gt"> Green Tea - $50</label><br>
+  <label><input type="checkbox" name="drink" value="Coffee" id="COF"> Coffee - $100</label><br>
   <label><input type="checkbox" name="drink" value="Milk Tea"> Milk Tea - $70</label><br>
   <label><input type="checkbox" name="drink" value="Water"> Water - $30</label><br>
   <label><input type="checkbox" name="drink" value="Oolong Tea"> Oolong Tea - $60</label><br>
